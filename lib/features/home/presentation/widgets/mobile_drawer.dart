@@ -29,8 +29,9 @@ class MobileDrawer extends StatelessWidget {
 
           // Các mục menu
           _buildMenuItem(context, "Home", Icons.home, 0),
-          _buildMenuItem(context, "Projects", Icons.work, 1),
-          _buildMenuItem(context, "Contact", Icons.email, 2),
+          _buildMenuItem(context, "About Me", Icons.person, 1),
+          _buildMenuItem(context, "Projects", Icons.work, 2),
+          _buildMenuItem(context, "Contact", Icons.email, 3),
         ],
       ),
     );

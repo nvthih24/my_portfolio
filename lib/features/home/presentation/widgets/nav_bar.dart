@@ -31,9 +31,11 @@ class NavBar extends StatelessWidget {
               children: [
                 _buildMenuItem("Home", 0),
                 const SizedBox(width: 30),
-                _buildMenuItem("Projects", 1),
+                _buildMenuItem("About Me", 1),
                 const SizedBox(width: 30),
-                _buildMenuItem("Contact", 2),
+                _buildMenuItem("Projects", 2),
+                const SizedBox(width: 30),
+                _buildMenuItem("Contact", 3),
               ],
             )
           else

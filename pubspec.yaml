@@ -41,7 +41,7 @@ dependencies:
   google_fonts: ^6.3.3
   responsive_framework: ^1.5.1
   url_launcher: ^6.3.2
-  font_awesome_flutter: ^10.12.0
+  font_awesome_flutter: ^11.0.0
   flutter_animate: ^4.5.2
   cloud_firestore: ^6.1.1
   firebase_core: ^4.3.0

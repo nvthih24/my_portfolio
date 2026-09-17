@@ -32,9 +32,9 @@ class ProjectsSection extends StatelessWidget {
             builder: (context, constraints) {
               int crossAxisCount = 3;
               double width = constraints.maxWidth;
-              if (width < 600)
+              if (width < 600) {
                 crossAxisCount = 1;
-              else if (width < 1100)
+              } else if (width < 1100)
                 crossAxisCount = 2;
 
               double childAspectRatio = width < 600 ? 0.85 : 0.75;
